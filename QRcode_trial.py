@@ -10,7 +10,7 @@ qr.add_data(data)
 qr.make(fit=True)
 
 # Create image from the QR code
-qr_image = qr.make_image(fill_color='black', back_color='white')
+qr_image = qr.make_image(fill_color="black", back_color="white")
 
 # Save the image
 qr_image.save("qr_code.png")
